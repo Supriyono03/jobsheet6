@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Student Names',
+      title: 'Apa Kabar',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -26,11 +26,11 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   final List<String> studentNames = [
-    'Nama Kalian',
-    'Mahasiswa 1',
-    'Mahasiswa 2',
-    'Mahasiswa 3',
-    'Mahasiswa 4',
+    'SUPRIYONO',
+    'DIPA',
+    'ISMAIL',
+    'ADE',
+    'SETIAWAN',
   ];
 
   int _currentIndex = 0;
@@ -94,7 +94,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Student Names'),
+        title: Text('Apa Kabar'),
         actions: [
           IconButton(
             icon: Icon(Icons.add),
